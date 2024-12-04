@@ -1,3 +1,6 @@
+/***
+ * Dostin Maza
+ */
 import java.util.Random;
 public class SimuladorPartidoFutbol {
     public static void main(String[] args) {
