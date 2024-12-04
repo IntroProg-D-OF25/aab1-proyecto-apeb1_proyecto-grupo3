@@ -12,12 +12,11 @@ public class ProyectoFinal {
         int nAprobadoC2 = 0, nFalloC2 = 0;
         int nAprobadoC3 = 0, nFalloC3 = 0;
 
-        // Iterar por cada estudiante
         for (int i = 0; i < numEstudiantes; i++) {
-            // Solicitar datos del estudiante
+   
             System.out.println("Ingrese el ID del estudiante (solo números): ");
             int id = tcl.nextInt();
-            tcl.nextLine(); // Limpiar buffer
+            tcl.nextLine(); 
 
             System.out.println("Ingrese el nombre del estudiante: ");
             String nombre = tcl.nextLine();
